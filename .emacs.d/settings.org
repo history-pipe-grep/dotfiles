@@ -1,0 +1,19 @@
+* Config
+  
+
+** ORG
+*** Don't ask to evaluate
+
+#+name: block-1
+#+BEGIN_SRC emacs-lisp
+
+(setq org-confirm-babel-evaluate nil)
+(current-time-string)
+#+END_SRC
+
+#+RESULTS: block-1
+: Sat Aug  1 17:21:35 2020
+
+  
+
+
